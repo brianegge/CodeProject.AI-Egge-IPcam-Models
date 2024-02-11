@@ -15,3 +15,6 @@ sudo cp yolov5/runs/train/exp/weights/best.pt /usr/bin/codeproject.ai-server-2.5
 
 Then I `sudo systemctl restart codeproject.ai-server.service`
 
+Afterwhich, I could test in the CodeProject AI explorer:
+![CodeProject Explorer](codeproject-package.png?raw=true)
+
