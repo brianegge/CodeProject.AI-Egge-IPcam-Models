@@ -2,14 +2,17 @@
 
 This project has two (overfit) models for use with CodeProject.AI and BlueIris. 
 
-egge: cat,coyote,deer,dog,fox,person,rabbit,raccoon
-This is built from: https://app.roboflow.com/egge-public/ipcams2/overview
+## egge
+  * cat,coyote,deer,dog,fox,person,rabbit,raccoon
+  * This is built from: https://app.roboflow.com/egge-public/ipcams2/overview
 
-package: package,vehicle
-This is built from: https://app.roboflow.com/egge-public/packages-vehicles2/overview
+## package
+  * package,vehicle
+  * This is built from: https://app.roboflow.com/egge-public/packages-vehicles2/overview
 
-garage: garbage bin,honda civic,honda crv,person,tool bucket
-https://app.roboflow.com/egge-public/garage/overview
+## garage
+  * garbage bin,honda civic,honda crv,person,tool bucket
+  * https://app.roboflow.com/egge-public/garage/overview
 
 For several years now I've run these models on my Jetson Nano. I have each of my ipcams use their ftp functionality to upload jpegs directly to my nano. This has worked quite well, but is rather bespoke. My original motivation was to keep deer from eating my fruit trees. Later, it proved to be quite useful keeping my [[https://blog.roboflow.com/using-computer-vision-to-detect-package-deliveries/][dog from eating my meal deliveries]]. When the Jetson sees a deer, it calls a script on HomeAssistant, which in turns has Alexa announce "Deer, Deer, Deer!". My dog quickly learned what this means and will race outside to chase the deer away. 
 
