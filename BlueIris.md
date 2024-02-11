@@ -19,3 +19,7 @@ Camera configuration in BlueIris
    * To Confirm: cat,coyote,deer,dog,fox,person,rabbit,raccoon,package,DayPlate,NightPlate,vehicle,Car
    * Custom Models:
    * Mark as Vehicle: DayPlate,NightPlate,vehicle,Car
+
+![Debug](BlueIris-Debug.png?raw=true)
+
+![Debug](AlertSettings.png?raw=true)
